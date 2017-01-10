@@ -6,3 +6,22 @@ body {
 table th {
   padding: 5px;
 }
+
+.content-page {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.mascot-spin {
+    -webkit-animation: mrT 2.5s infinite ease;
+    animation: mrT 2.5s infinite ease;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    display: inline-block;
+}
